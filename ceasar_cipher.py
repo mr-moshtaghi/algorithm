@@ -1,3 +1,9 @@
+"""
+
+    complexity = O(n)
+
+"""
+
 from string import ascii_letters
 
 
