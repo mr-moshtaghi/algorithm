@@ -3,8 +3,7 @@ import random
 
 def encrypt(text):
     plain = [ord(i) for i in text]
-    key = []
-    cipher = []
+    key, cipher = [], []
 
     for p in plain:
         k = random.randint(1, 300)
